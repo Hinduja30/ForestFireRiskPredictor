@@ -1,0 +1,29 @@
+{
+  "feature_cols": [
+    "latitude",
+    "longitude",
+    "brightness",
+    "bright_t31",
+    "thermal_delta",
+    "frp",
+    "confidence",
+    "daynight_enc",
+    "month"
+  ],
+  "label_names": [
+    "Low",
+    "Medium",
+    "High",
+    "Extreme"
+  ],
+  "accuracy": 0.9967,
+  "n_samples": 1217445,
+  "class_distribution": {
+    "Low": 142639,
+    "Medium": 901985,
+    "High": 140835,
+    "Extreme": 31986
+  },
+  "dataset": "MODIS FIRMS India 2010\u20132024",
+  "model": "XGBoostClassifier n_estimators=300 max_depth=8 lr=0.05"
+}
